@@ -2,7 +2,7 @@ import React from 'react'
 
 function LeftSideBar() {
   return (
-    <div>LeftSideBar</div>
+    <h1>Left Side Bar</h1>
   )
 }
 
