@@ -1,8 +1,14 @@
 import React from 'react'
+import Image from 'next/image'
 
 function LeftSideBar() {
   return (
-    <h1>Left Side Bar</h1>
+    <div>
+      <div className='flex justify-center image-div'>
+        <Image src="/logo.svg" className='object-contain' width={150} height={50}/>
+      </div>
+      <h1></h1>
+    </div>
   )
 }
 
